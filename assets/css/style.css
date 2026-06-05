@@ -377,4 +377,12 @@ footer{
 .footer-content--copy{
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+}
+.footer-content--copy :hover a{
+    color: #013787;
+}
+.footer-content--copy a{
+    text-decoration: none;
+    color: #b9b9b9;
 }
