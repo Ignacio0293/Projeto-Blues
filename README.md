@@ -4,7 +4,7 @@ Este é um projeto prático de desenvolvimento de uma landing page para uma loja
 
 ## 🚀 Status do Projeto
 🛠️ **Em desenvolvimento** Atualmente, o site conta com a estrutura visual completa para desktop. 
-  Os próximos passos incluem a implementação de interatividade.
+  Os próximos passos incluem a implementação de interatividade e correção do menu superior para funcionamento em smartphones.
 
 ---
 
@@ -27,7 +27,7 @@ Durante o desenvolvimento desta etapa, foquei em:
 ## 📅 Próximos Passos (Roadmap)
 
 Como este é um projeto de estudo contínuo, as próximas implementações já planejadas são:
-- [ ] **Responsividade:** Aplicar @media queries para garantir que o site funcione perfeitamente em dispositivos móveis (Mobile First).
+- [x] **Responsividade:** Aplicar @media queries para garantir que o site funcione perfeitamente em dispositivos móveis (Mobile First).
 - [ ] **Animações e Interatividade:** Adicionar JavaScript para animações (como menus mobile, sliders de imagens ou efeitos de hover dinâmicos).
 - [ ] **Deploy:** Hospedar o site no GitHub Pages ou Vercel para visualização online.
 
@@ -37,3 +37,4 @@ Como este é um projeto de estudo contínuo, as próximas implementações já p
 
 Desenvolvido por **Vinicius Ignacio** * LinkedIn: https://www.linkedin.com/in/viniciusignacio02/
 * GitHub: (https://github.com/Ignacio029)
+* Email: viniciusignacio02@gmail.com

@@ -51,6 +51,8 @@
     .banner{ height: 50vh; }
     .banner h1{ font-size: 28px; }
     .banner h2 span{ font-size: 18px; }
+    .banner .slide {align-items: center;}
+    .banner .slidearea{width: 90%;margin:5%; }
 
     .default .section-title{ font-size: 20px; }
     .default .section-desc{ font-size: 12px; }
@@ -72,12 +74,15 @@
     .team-member img{ width: 140px; height: 140px; }
 
     .map-area--img{ margin-left: 0; padding: 0 10px; height: auto; }
-    .map-area--info{ width: 38%; margin: 10px 0; }
+    .map-area--info{display: flex; flex-direction: column; width: 38%; margin: 10px 0; }
     .map-area--info--icon--text h3{ font-size: 14px; }
     .map-area--info--icon--text p{ font-size: 12px; }
+    .map-area--info--icon{align-self: center;}
+    
 
     
     .footer-content{ display: flex; align-items: center; margin-left: 0; }
     .footer-content--icon{ flex-direction: row; gap: 12px; }
+    .footer-content--copy{align-self: center;}
     
 }
