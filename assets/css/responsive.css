@@ -1,0 +1,83 @@
+@media (max-width: 1024px) {  
+    header{ height: 80px;}
+    .header{ max-width: 94%; height: 80px; }
+    .logo{ width: 100px; }
+    .menu li a{ height: 80px; padding-left:8px; padding-right:8px; }
+
+    .banner{ height: 60vh; }
+    .banner h1{ font-size: 38px; }
+    .banner h2 span{ font-size: 22px; }
+    .banner h3{ bottom: 50px; font-size: 13px;}
+
+    .slidearea h3{margin-bottom: 15px;}
+
+    .default .section-title{ font-size: 22px; }
+    .default .section-desc{ font-size: 13px; }
+
+    .fornecedores{ flex-wrap: wrap; justify-content: space-around; }
+    .fornecedor{ flex-basis: 50%; border-right: none; border-left: none; }
+    .fornecedor img{max-width: 250px; height: 250px;}
+
+    .section-aboutus{ flex-direction: column; gap: 20px; }
+    .section-aboutus--right{ width: 100%; padding: 0 20px; }
+    .section-aboutus--right img{max-width: 400px;} 
+    .section-aboutus--left {display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;}
+    .section-aboutus--left p{ font-size: 15px; max-width: 600px; }
+
+
+    .campanhas{ grid-template-columns: repeat(2, 1fr); }
+    .campanha {height: 400px; widht:auto; }
+    .campanha img {height: 400px; widht:auto; }
+
+    .section-body .team{ flex-direction: row; gap: 30px; flex-wrap: wrap; }
+    .team-member img{ width: 160px; height: 160px; }
+
+    .map-area--img{ height: 320px; margin-left: 3%; }
+    .map-area--info{ width: 35%; }
+
+    .footer-content{ flex-direction: column; align-items: flex-start; gap: 15px; }
+}
+
+@media (max-width: 600px) {
+    header{ height: 70px;}
+    .header{ flex-direction: row; align-items: center; gap: 10px; padding: 0 10px; }
+    .logo{ width: 90px; }
+
+    .menu{ order: 3; width: 100%; }
+    .menu ul{ flex-direction: column; width: 100%; align-items: center; }
+    .menu li a{ height: auto; padding: 10px 12px; border-bottom: none; }
+    .menu li a:hover, .menu .active a{ border-bottom: none; }
+
+    .banner{ height: 50vh; }
+    .banner h1{ font-size: 28px; }
+    .banner h2 span{ font-size: 18px; }
+
+    .default .section-title{ font-size: 20px; }
+    .default .section-desc{ font-size: 12px; }
+
+    .section-aboutus{ flex-direction: column; }
+    .section-aboutus--left{ padding: 0 16px; }
+    .section-aboutus--left p{padding: 10px;}
+    .section-aboutus--right{ padding: 0 16px; }
+    .section-aboutus--right img{ box-shadow: none; }
+
+    .fornecedores{ flex-wrap: wrap; justify-content: space-around; }
+    .fornecedor{ flex-basis: 50%; border-right: none; border-left: none; }
+    .fornecedor img{max-width: 250px; height: auto;}
+
+    .campanhas{ grid-template-columns: 1fr; }
+    .campanha img{ height: 380px; }
+
+    .section-body .team{ gap: 20px; }
+    .team-member img{ width: 140px; height: 140px; }
+
+    .map-area--img{ margin-left: 0; padding: 0 10px; height: auto; }
+    .map-area--info{ width: 38%; margin: 10px 0; }
+    .map-area--info--icon--text h3{ font-size: 14px; }
+    .map-area--info--icon--text p{ font-size: 12px; }
+
+    
+    .footer-content{ display: flex; align-items: center; margin-left: 0; }
+    .footer-content--icon{ flex-direction: row; gap: 12px; }
+    
+}
