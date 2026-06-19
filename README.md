@@ -4,7 +4,7 @@ Este é um projeto prático de desenvolvimento de uma landing page para uma loja
 
 ## 🚀 Status do Projeto
 🛠️ **Em desenvolvimento** Atualmente, o site conta com a estrutura visual completa para desktop. 
-  Os próximos passos incluem a implementação de responsividade e interatividade.
+  Os próximos passos incluem a implementação de interatividade.
 
 ---
 
