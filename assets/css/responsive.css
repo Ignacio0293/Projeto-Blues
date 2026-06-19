@@ -51,8 +51,8 @@
     .banner{ height: 50vh; }
     .banner h1{ font-size: 28px; }
     .banner h2 span{ font-size: 18px; }
-    .banner .slide {align-items: center;}
-    .banner .slidearea{width: 90%;margin:5%; }
+    .banner .slidearea{width: 90%;margin:auto;}
+    .banner .slidearea h2{width: 100%; text-align: center; margin: 0;}
 
     .default .section-title{ font-size: 20px; }
     .default .section-desc{ font-size: 12px; }
